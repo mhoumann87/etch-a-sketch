@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Etch-A-Sketch</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans:100,400,600"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.1/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Etch-A-Sketch</h1>
+    </header>
+    <div class="buttons">
+      <button class="btn" id="chgGrid">Change Grid</button>
+      <input type="color" class="btn picker" id="chgColor" />
+      <button class="btn" id="clearGrid">Clear the grid</button>
+    </div>
+    <main>
+      <div class="grid-container" id="gridContainer"></div>
+    </main>
+    <footer>
+      <div class="copy">
+        &copy;2019 Made by
+        <a href="https://github.com/mhoumann87" target="_blank"
+          >Michael Houmann</a
+        >
+        as part of a web developer course on
+        <a href="https://www.theodinproject.com" target="_blank"
+          >the Odin Project</a
+        >.
+      </div>
+      <div class="social">
+        <a href="https://twitter.com/MichaelHoumann" target="_blank"
+          ><i class="fab fa-twitter"></i
+          ><span class="sr-text">Visit on Twitter</span></a
+        >
+        <a href="https://github.com/mhoumann87" target="_blank"
+          ><i class="fab fa-github"></i>
+          <span class="sr-text">Visit on GitHub</span></a
+        >
+        <a href="www.linkedin.com/in/michael-houmann-3b03654b" target="_blank"
+          ><i class="fab fa-linkedin"></i
+          ><span class="sr-text">Visit on LinkedIn</span></a
+        >
+      </div>
+    </footer>
+
+    <script src="./etch-a-sketch.js"></script>
+  </body>
+</html>
